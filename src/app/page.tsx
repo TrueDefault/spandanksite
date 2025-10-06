@@ -8,7 +8,7 @@ export default function Home() {
   const [theme] = useState('dark');
 
   useEffect(() => {
-    const professions = ['n Electrical Engineering Student.', 'Undergraduate Researcher.', 'Robotics Enthusiast.'];
+    const professions = ['an Electrical Engineering Student.', 'a Undergraduate Researcher.', 'a Robotics Enthusiast.'];
     let currentIndex = 0;
     let isDeleting = false;
     let text = '';
@@ -124,7 +124,7 @@ export default function Home() {
           <h1 className="text-4xl md:text-6xl font-light mb-6 hover-underline inline-block bg-gradient-to-r from-[var(--text-primary)] to-[var(--text-secondary)] bg-clip-text text-transparent">Spandan Kottakota</h1>
           <div className="text-lg md:text-xl text-[var(--text-secondary)] hover:text-[var(--text-hover)] transition-colors">
             <div className="flex items-baseline">
-              <span>I&apos;m a</span>
+              <span>I&apos;m</span>
               <span className="typing-text" id="typing-text">{profession}</span>
             </div>
           </div>

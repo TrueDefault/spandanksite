@@ -206,6 +206,7 @@ export default function Home() {
           <div className="flex gap-6">
             <a href="mailto:spandankottakota@gmail.com" className={`${theme === 'dark' ? 'text-gray-400' : 'text-black/70'} hover:text-blue-400 transition-colors hover-underline`}>Email</a>
             <a href="https://linkedin.com/in/spandankottakota" target="_blank" rel="noopener noreferrer" className={`${theme === 'dark' ? 'text-gray-400' : 'text-black/70'} hover:text-blue-400 transition-colors hover-underline`}>LinkedIn</a>
+            <a href="https://github.com/TrueDefault" target="_blank" rel="noopener noreferrer" className={`${theme === 'dark' ? 'text-gray-400' : 'text-black/70'} hover:text-blue-400 transition-colors hover-underline`}>Github</a>
             <a href="https://www.instagram.com/spandankottakota/" target="_blank" rel="noopener noreferrer" className={`${theme === 'dark' ? 'text-gray-400' : 'text-black/70'} hover:text-blue-400 transition-colors hover-underline`}>Instagram</a>
           </div>
         </section>

@@ -1,0 +1,57 @@
+# Node modules
+node_modules/
+
+# Next.js build output
+.next/
+out/
+build/
+
+# Vercel
+.vercel/
+vercel.json
+
+# Local environment variables
+.env
+.env.*.local
+.env.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Testing
+/coverage/
+/.nyc_output/
+
+# TypeScript
+*.tsbuildinfo
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Production
+dist/
+
+# Storybook
+.storybook-static/
+
+# OS files
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# JetBrains
+/.idea/
+*.iml
+
+# Misc
+.eslintcache
+

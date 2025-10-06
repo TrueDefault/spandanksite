@@ -4,11 +4,11 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
 export default function Home() {
-  const [profession, setProfession] = useState('Computer Engineering Student.');
+  const [profession, setProfession] = useState('n Electrical Engineering Student.');
   const [theme] = useState('dark');
 
   useEffect(() => {
-    const professions = ['Computer Engineering Student.', 'Undergraduate Researcher.', 'Robotics Enthusiast.'];
+    const professions = ['n Electrical Engineering Student.', 'Undergraduate Researcher.', 'Robotics Enthusiast.'];
     let currentIndex = 0;
     let isDeleting = false;
     let text = '';
@@ -134,7 +134,7 @@ export default function Home() {
         <section id="about" className="mb-24 hover:translate-y-[-5px] transition-transform parallax-section scroll-mt-24" data-speed="0.5">
           <h2 className="text-2xl font-light mb-6 hover-underline inline-block bg-gradient-to-r from-[var(--text-primary)] to-[var(--text-secondary)] bg-clip-text text-transparent">About</h2>
           <p className={`${theme === 'dark' ? 'text-gray-400 hover:text-gray-300' : 'text-black/70 hover:text-black'} leading-relaxed transition-colors`}>
-            I&apos;m a Computer Engineering student at San Jose State University (Class of 2026) with a strong academic record (GPA: 3.75/4.0).
+            I&apos;m an Electrical Engineering student at University of California, San Diego (Class of 2027) with a strong academic record (GPA: 4.0/4.0).
             My expertise spans across various technical domains including C, C++, Python, JavaScript, and hardware design.
             I&apos;m passionate about innovative problem-solving and applying engineering principles to real-world challenges.
           </p>

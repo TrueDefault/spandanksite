@@ -197,6 +197,18 @@ export default function Home() {
                 <span className="hover:text-blue-400 transition-colors duration-50">Figma</span>
               </div>
             </Link>
+
+            <Link href="/projects/mp3player" className="group p-6 rounded-lg hover:bg-gray-900/50 transition-all duration-50 w-full block">
+              <h3 className="text-xl group-hover:text-blue-400 transition-colors mb-2">mp3 player</h3>
+              <p className={`${theme === 'dark' ? 'text-gray-400 group-hover:text-gray-300' : 'text-black/70 group-hover:text-black'} mb-2 transition-colors`}>Developed a news aggregation Android application with modern UI/UX design. Integrated News API for content sourcing and management.</p>
+              <div className="flex gap-3 text-sm text-gray-500 group-hover:text-gray-400 transition-colors">
+                <span className="hover:text-blue-400 transition-colors duration-50">Java</span>
+                <span>•</span>
+                <span className="hover:text-blue-400 transition-colors duration-50">Android Studio</span>
+                <span>•</span>
+                <span className="hover:text-blue-400 transition-colors duration-50">Figma</span>
+              </div>
+            </Link>
           </div>
         </section>
 

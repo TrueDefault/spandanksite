@@ -120,7 +120,7 @@ export default function Home() {
       <div className="max-w-4xl mx-auto">
 
         {/* Hero Section */}
-        <section className={`mb-24 hover:translate-y-[-5px] transition-transform parallax-section ${theme === 'dark' ? 'text-white' : 'text-black'}`} data-speed="0.3">
+        <section className={`mb-12 hover:translate-y-[-5px] transition-transform parallax-section ${theme === 'dark' ? 'text-white' : 'text-black'}`} data-speed="0.3">
           <h1 className="text-4xl md:text-6xl font-light mb-6 hover-underline inline-block bg-gradient-to-r from-[var(--text-primary)] to-[var(--text-secondary)] bg-clip-text text-transparent">Spandan Kottakota</h1>
           <div className="text-lg md:text-xl text-[var(--text-secondary)] hover:text-[var(--text-hover)] transition-colors">
             <div className="flex items-baseline">
@@ -131,7 +131,7 @@ export default function Home() {
         </section>
 
         {/* About Section */}
-        <section id="about" className="mb-24 hover:translate-y-[-5px] transition-transform parallax-section scroll-mt-24" data-speed="0.5">
+        <section id="about" className="mb-12 hover:translate-y-[-5px] transition-transform parallax-section scroll-mt-24" data-speed="0.5">
           <h2 className="text-2xl font-light mb-6 hover-underline inline-block bg-gradient-to-r from-[var(--text-primary)] to-[var(--text-secondary)] bg-clip-text text-transparent">About</h2>
           <p className={`${theme === 'dark' ? 'text-gray-400 hover:text-gray-300' : 'text-black/70 hover:text-black'} leading-relaxed transition-colors`}>
             I&apos;m an Electrical Engineering student at University of California, San Diego (Class of 2027) with a strong academic record (GPA: 4.0/4.0).
@@ -143,7 +143,7 @@ export default function Home() {
         {/* Experience Section */}
         <section
           id="experience"
-          className="mb-24 hover:translate-y-[-5px] transition-transform parallax-section scroll-mt-24"
+          className="mb-12 hover:translate-y-[-5px] transition-transform parallax-section scroll-mt-24"
           data-speed="0.7"
         >
           <h2 className="text-2xl font-light mb-6 hover-underline inline-block bg-gradient-to-r from-[var(--text-primary)] to-[var(--text-secondary)] bg-clip-text text-transparent">
@@ -292,7 +292,7 @@ export default function Home() {
 
 
         {/* Projects Section */}
-        <section id="projects" className="mb-24 hover:translate-y-[-5px] transition-transform parallax-section scroll-mt-24" data-speed="0.9">
+        <section id="projects" className="mb-12 hover:translate-y-[-5px] transition-transform parallax-section scroll-mt-24" data-speed="0.9">
           <h2 className="text-2xl font-light mb-6 hover-underline inline-block bg-gradient-to-r from-[var(--text-primary)] to-[var(--text-secondary)] bg-clip-text text-transparent">Projects</h2>
           <div className="grid grid-cols-1 gap-8">
             <Link href="/projects/togobot" className="group p-6 rounded-lg hover:bg-gray-900/50 transition-all duration-50 w-full block">

@@ -4,11 +4,11 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
 export default function Home() {
-  const [profession, setProfession] = useState('n Electrical Engineering Student.');
+  const [profession, setProfession] = useState('an Electrical Engineering Student.');
   const [theme] = useState('dark');
 
   useEffect(() => {
-    const professions = ['an Electrical Engineering Student.', 'an Undergraduate Researcher.', 'a Robotics Enthusiast.'];
+    const professions = ['an Electrical Engineering Student.', 'an Undergraduate Researcher.', 'a Robotics Enthusiast.', 'a Photographer.'];
     let currentIndex = 0;
     let isDeleting = false;
     let text = '';

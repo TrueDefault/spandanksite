@@ -299,8 +299,8 @@ export default function Home() {
               >
                 <li>
                   Created an application with a team of 3 developers to automate the process of inputting medical records from 
-                  various labs into the database achieving a <strong>93.33% reduction</strong> in time and a <strong>90% reduction</strong> 
-                   in human labor
+                  various labs into the database achieving a <strong>93.33% reduction</strong> in time and a <strong>90% reduction </strong> 
+                  in human labor
                 </li>
                 <li>
                   Learned how to use <strong>APIs</strong> (Application Programming Interface) and <strong>OCR</strong> 

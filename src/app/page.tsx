@@ -141,9 +141,22 @@ export default function Home() {
         </section>
 
         {/* Experience Section */}
+        
         <section id="experience" className="mb-24 hover:translate-y-[-5px] transition-transform parallax-section scroll-mt-24" data-speed="0.7">
           <h2 className="text-2xl font-light mb-6 hover-underline inline-block bg-gradient-to-r from-[var(--text-primary)] to-[var(--text-secondary)] bg-clip-text text-transparent">Experience</h2>
           <div className="space-y-12">
+            <div className="group p-4 rounded-lg hover:bg-gray-900/50 transition-all duration-50">
+              <div className="flex justify-between items-start mb-2">
+                <h3 className="text-xl group-hover:text-blue-400 transition-colors">Undergraduate Researcher - Electrical Engineering</h3>
+                <span className="text-gray-500 group-hover:text-gray-400 transition-colors duration-50">Jan 2025 - June 2025</span>
+              </div>
+              <ul className="list-disc pl-5 space-y-4 text-sm transition-colors 
+                ${theme === 'dark' ? 'text-gray-400 group-hover:text-gray-300' : 'text-black/70 group-hover:text-black'}">
+                <li>Created a program with Dr. David Parent to introduce chip design to prospective SJSU students.</li>
+                <li>Designed a 4-bit Stochastic Multiplier achieving 225% improvement in efficiency.</li>
+              </ul>
+            </div>
+
             <div className="group p-4 rounded-lg hover:bg-gray-900/50 transition-all duration-50">
               <div className="flex justify-between items-start mb-2">
                 <h3 className="text-xl group-hover:text-blue-400 transition-colors">Undergraduate Researcher - Project Engineering Success</h3>

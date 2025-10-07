@@ -220,7 +220,7 @@ export default function Home() {
                   Achieved a design <strong>3.25 times</strong> more efficient (<strong>225% improvement</strong>) than traditional 4-bit multipliers in terms of gate count
                 </li>
               </ul>
-              <div className="flex gap-3 text-base text-gray-500 group-hover:text-gray-400 transition-colors py-4">
+              <div className="flex gap-3 text-base text-gray-500 group-hover:text-gray-400 transition-colors pt-4">
                 <span className="hover:text-blue-400 transition-colors duration-50">Verilog</span>
                 <span>•</span>
                 <span className="hover:text-blue-400 transition-colors duration-50">Digital Design</span>

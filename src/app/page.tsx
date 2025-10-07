@@ -277,7 +277,7 @@ export default function Home() {
               </div>
             </Link>
 
-            {/* Programming Intern */}
+            {/* CallHealth */}
             <Link
               href="/experience/callhealth"
               className="group p-4 rounded-lg hover:bg-gray-900/50 transition-all duration-50 w-full block cursor-pointer"
@@ -287,19 +287,36 @@ export default function Home() {
                   Programming Intern - CallHealth
                 </h3>
                 <span className="text-gray-500 group-hover:text-gray-400 transition-colors duration-50">
-                  Jun 2022 - Aug 2022
+                  June 2022 - Aug 2022
                 </span>
               </div>
-              <p
-                className={`${
+              <ul
+                className={`list-disc pl-5 space-y-4 text-base transition-colors ${
                   theme === "dark"
                     ? "text-gray-400 group-hover:text-gray-300"
                     : "text-black/70 group-hover:text-black"
-                } transition-colors`}
+                }`}
               >
-                Developed an automated medical records processing application achieving 93% time reduction.
-                Implemented OCR using Python, Tesseract, and Google Vision.
-              </p>
+                <li>
+                  Created an application with a team of 3 developers to automate the process of inputting medical records from 
+                  various labs into the database achieving a <strong>93.33% reduction</strong> in time and a <strong>90% reduction</strong> 
+                  in human labor
+                </li>
+                <li>
+                  Learned how to use <strong>APIs</strong> (Application Programming Interface) and <strong>OCR</strong> 
+                  (Optical Character Recognition)
+                </li>
+                <li>
+                  Used <strong>Python</strong>, <strong>Tesseract</strong>, and <strong>Google Vision</strong>
+                </li>
+              </ul>
+              <div className="flex gap-3 text-base text-gray-500 group-hover:text-gray-400 transition-colors pt-4">
+                <span className="hover:text-blue-400 transition-colors duration-50">Python</span>
+                <span>•</span>
+                <span className="hover:text-blue-400 transition-colors duration-50">APIs</span>
+                <span>•</span>
+                <span className="hover:text-blue-400 transition-colors duration-50">OCR</span>
+              </div>
             </Link>
           </div>
         </section>

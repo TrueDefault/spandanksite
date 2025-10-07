@@ -151,6 +151,40 @@ export default function Home() {
           </h2>
 
           <div className="space-y-12">
+            {/* EE Research */}
+            <Link
+              href="/experience/ee-research"
+              className="group p-4 rounded-lg hover:bg-gray-900/50 transition-all duration-50 w-full block cursor-pointer"
+            >
+              <div className="flex justify-between items-start mb-2">
+                <h3 className="text-xl group-hover:text-blue-400 transition-colors">
+                  Undergraduate Researcher - Electrical Engineering Department
+                </h3>
+                <span className="text-gray-500 group-hover:text-gray-400 transition-colors duration-50">
+                  Jan 2025 - June 2025
+                </span>
+              </div>
+              <ul
+                className={`list-disc pl-5 space-y-4 text-base transition-colors ${
+                  theme === "dark"
+                    ? "text-gray-400 group-hover:text-gray-300"
+                    : "text-black/70 group-hover:text-black"
+                }`}
+              >
+                <li>
+                  Design Verilog-based RTL circuit to compute Lorenz Attractor equations and visualize output via VGA.
+                </li>
+                <li>
+                  Deploy the design on an Arty-S7 FPGA board for real-time testing and validation.
+                </li>
+                <li>
+                  Collaborate with Dr. David Parent to integrate current integrator logic with stochastic multiplier 
+                  logic developed in prior research project to create more efficient Quadratic Integrate-and-Fire (QIF) 
+                  neuron model.
+                </li>
+              </ul>
+            </Link>
+
             {/* Project Engineering Success */}
             <Link
               href="/experience/project-engineering-success"
@@ -180,31 +214,6 @@ export default function Home() {
                   electrical engineering concepts.
                 </li>
               </ul>
-            </Link>
-
-            {/* Electrical Engineering Research */}
-            <Link
-              href="/experience/electrical-engineering-research"
-              className="group p-4 rounded-lg hover:bg-gray-900/50 transition-all duration-50 w-full block cursor-pointer"
-            >
-              <div className="flex justify-between items-start mb-2">
-                <h3 className="text-xl group-hover:text-blue-400 transition-colors">
-                  Undergraduate Researcher - Electrical Engineering
-                </h3>
-                <span className="text-gray-500 group-hover:text-gray-400 transition-colors duration-50">
-                  Jan 2025 - June 2025
-                </span>
-              </div>
-              <p
-                className={`${
-                  theme === "dark"
-                    ? "text-gray-400 group-hover:text-gray-300"
-                    : "text-black/70 group-hover:text-black"
-                } transition-colors`}
-              >
-                Created a program with Dr. David Parent to introduce chip design to prospective SJSU
-                students. Designed a 4-bit Stochastic Multiplier achieving 225% improvement in efficiency.
-              </p>
             </Link>
 
             {/* Spartan Racing */}

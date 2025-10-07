@@ -141,50 +141,124 @@ export default function Home() {
         </section>
 
         {/* Experience Section */}
-        
-        <section id="experience" className="mb-24 hover:translate-y-[-5px] transition-transform parallax-section scroll-mt-24" data-speed="0.7">
-          <h2 className="text-2xl font-light mb-6 hover-underline inline-block bg-gradient-to-r from-[var(--text-primary)] to-[var(--text-secondary)] bg-clip-text text-transparent">Experience</h2>
+        <section
+          id="experience"
+          className="mb-24 hover:translate-y-[-5px] transition-transform parallax-section scroll-mt-24"
+          data-speed="0.7"
+        >
+          <h2 className="text-2xl font-light mb-6 hover-underline inline-block bg-gradient-to-r from-[var(--text-primary)] to-[var(--text-secondary)] bg-clip-text text-transparent">
+            Experience
+          </h2>
+
           <div className="space-y-12">
-            <div className="group p-4 rounded-lg hover:bg-gray-900/50 transition-all duration-50">
+            {/* Project Engineering Success */}
+            <Link
+              href="/experience/project-engineering-success"
+              className="group p-4 rounded-lg hover:bg-gray-900/50 transition-all duration-50 w-full block cursor-pointer"
+            >
               <div className="flex justify-between items-start mb-2">
-                <h3 className="text-xl group-hover:text-blue-400 transition-colors">Undergraduate Researcher - Project Engineering Success</h3>
-                <span className="text-gray-500 group-hover:text-gray-400 transition-colors duration-50">Sep 2023 - Present</span>
+                <h3 className="text-xl group-hover:text-blue-400 transition-colors">
+                  Undergraduate Researcher - Project Engineering Success
+                </h3>
+                <span className="text-gray-500 group-hover:text-gray-400 transition-colors duration-50">
+                  Sep 2023 - Present
+                </span>
               </div>
-              <ul className={`list-disc pl-5 space-y-4 text-base transition-colors ${
-                theme === 'dark'
-                  ? 'text-gray-400 group-hover:text-gray-300'
-                  : 'text-black/70 group-hover:text-black'
-              }`}>
-                <li>Collaborated with Dr. David Parent to create an educational program introducing chip design to prospective SJSU students.</li>
-                <li>Developed materials and interactive sessions to enhance accessibility of complex electrical engineering concepts.</li>
+              <ul
+                className={`list-disc pl-5 space-y-4 text-base transition-colors ${
+                  theme === "dark"
+                    ? "text-gray-400 group-hover:text-gray-300"
+                    : "text-black/70 group-hover:text-black"
+                }`}
+              >
+                <li>
+                  Collaborated with Dr. David Parent to create an educational program introducing chip
+                  design to prospective SJSU students.
+                </li>
+                <li>
+                  Developed materials and interactive sessions to enhance accessibility of complex
+                  electrical engineering concepts.
+                </li>
               </ul>
-            </div>
+            </Link>
 
-            <div className="group p-4 rounded-lg hover:bg-gray-900/50 transition-all duration-50">
+            {/* Electrical Engineering Research */}
+            <Link
+              href="/experience/electrical-engineering-research"
+              className="group p-4 rounded-lg hover:bg-gray-900/50 transition-all duration-50 w-full block cursor-pointer"
+            >
               <div className="flex justify-between items-start mb-2">
-                <h3 className="text-xl group-hover:text-blue-400 transition-colors">Undergraduate Researcher - Project Engineering Success</h3>
-                <span className="text-gray-500 group-hover:text-gray-400 transition-colors duration-50">Sep 2023 - Present</span>
+                <h3 className="text-xl group-hover:text-blue-400 transition-colors">
+                  Undergraduate Researcher - Electrical Engineering
+                </h3>
+                <span className="text-gray-500 group-hover:text-gray-400 transition-colors duration-50">
+                  Jan 2025 - June 2025
+                </span>
               </div>
-              <p className={`${theme === 'dark' ? 'text-gray-400 group-hover:text-gray-300' : 'text-black/70 group-hover:text-black'} transition-colors`}>Created a program with Dr. David Parent to introduce chip design to prospective SJSU students. Designed a 4-bit Stochastic Multiplier achieving 225% improvement in efficiency.</p>
-            </div>
+              <p
+                className={`${
+                  theme === "dark"
+                    ? "text-gray-400 group-hover:text-gray-300"
+                    : "text-black/70 group-hover:text-black"
+                } transition-colors`}
+              >
+                Created a program with Dr. David Parent to introduce chip design to prospective SJSU
+                students. Designed a 4-bit Stochastic Multiplier achieving 225% improvement in efficiency.
+              </p>
+            </Link>
 
-            <div className="group p-4 rounded-lg hover:bg-gray-900/50 transition-all duration-50">
+            {/* Spartan Racing */}
+            <Link
+              href="/experience/spartan-racing"
+              className="group p-4 rounded-lg hover:bg-gray-900/50 transition-all duration-50 w-full block cursor-pointer"
+            >
               <div className="flex justify-between items-start mb-2">
-                <h3 className="text-xl group-hover:text-blue-400 transition-colors">Designer/Builder - Spartan Racing Formula SAE</h3>
-                <span className="text-gray-500 group-hover:text-gray-400 transition-colors duration-50">Sep 2023 - May 2024</span>
+                <h3 className="text-xl group-hover:text-blue-400 transition-colors">
+                  Designer/Builder - Spartan Racing Formula SAE
+                </h3>
+                <span className="text-gray-500 group-hover:text-gray-400 transition-colors duration-50">
+                  Sep 2023 - May 2024
+                </span>
               </div>
-              <p className={`${theme === 'dark' ? 'text-gray-400 group-hover:text-gray-300' : 'text-black/70 group-hover:text-black'} transition-colors`}>Designed dashboard components, soldered PCB components, and built housing for the electrical systems.</p>
-            </div>
+              <p
+                className={`${
+                  theme === "dark"
+                    ? "text-gray-400 group-hover:text-gray-300"
+                    : "text-black/70 group-hover:text-black"
+                } transition-colors`}
+              >
+                Designed dashboard components, soldered PCB components, and built housing for the
+                electrical systems.
+              </p>
+            </Link>
 
-            <div className="group p-4 rounded-lg hover:bg-gray-900/50 transition-all duration-50">
+            {/* Programming Intern */}
+            <Link
+              href="/experience/callhealth"
+              className="group p-4 rounded-lg hover:bg-gray-900/50 transition-all duration-50 w-full block cursor-pointer"
+            >
               <div className="flex justify-between items-start mb-2">
-                <h3 className="text-xl group-hover:text-blue-400 transition-colors">Programming Intern - CallHealth</h3>
-                <span className="text-gray-500 group-hover:text-gray-400 transition-colors duration-50">Jun 2022 - Aug 2022</span>
+                <h3 className="text-xl group-hover:text-blue-400 transition-colors">
+                  Programming Intern - CallHealth
+                </h3>
+                <span className="text-gray-500 group-hover:text-gray-400 transition-colors duration-50">
+                  Jun 2022 - Aug 2022
+                </span>
               </div>
-              <p className={`${theme === 'dark' ? 'text-gray-400 group-hover:text-gray-300' : 'text-black/70 group-hover:text-black'} transition-colors`}>Developed an automated medical records processing application achieving 93% time reduction. Implemented OCR using Python, Tesseract, and Google Vision.</p>
-            </div>
+              <p
+                className={`${
+                  theme === "dark"
+                    ? "text-gray-400 group-hover:text-gray-300"
+                    : "text-black/70 group-hover:text-black"
+                } transition-colors`}
+              >
+                Developed an automated medical records processing application achieving 93% time reduction.
+                Implemented OCR using Python, Tesseract, and Google Vision.
+              </p>
+            </Link>
           </div>
         </section>
+
 
         {/* Projects Section */}
         <section id="projects" className="mb-24 hover:translate-y-[-5px] transition-transform parallax-section scroll-mt-24" data-speed="0.9">

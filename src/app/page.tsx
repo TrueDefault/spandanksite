@@ -213,7 +213,20 @@ export default function Home() {
                   Developed materials and interactive sessions to enhance accessibility of complex
                   electrical engineering concepts.
                 </li>
+                <li>
+                  Designed a 4-bit Stochastic Multiplier with <strong>Wokwi</strong> and <strong>Verilog</strong> and fabricated the schematic through TinyTapeout
+                </li>
+                <li>
+                  Achieved a design <strong>3.25 times</strong> more efficient (<strong>225% improvement</strong>) than traditional 4-bit multipliers in terms of gate count
+                </li>
               </ul>
+              <div className="flex gap-3 text-sm text-gray-500 group-hover:text-gray-400 transition-colors">
+                <span className="hover:text-blue-400 transition-colors duration-50">Verilog</span>
+                <span>•</span>
+                <span className="hover:text-blue-400 transition-colors duration-50">Digital Design</span>
+                <span>•</span>
+                <span className="hover:text-blue-400 transition-colors duration-50">ASIC Design</span>
+              </div>
             </Link>
 
             {/* Spartan Racing */}

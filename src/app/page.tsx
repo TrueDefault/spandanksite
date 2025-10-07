@@ -150,7 +150,7 @@ export default function Home() {
                 <h3 className="text-xl group-hover:text-blue-400 transition-colors">Undergraduate Researcher - Project Engineering Success</h3>
                 <span className="text-gray-500 group-hover:text-gray-400 transition-colors duration-50">Sep 2023 - Present</span>
               </div>
-              <ul className={`list-disc pl-5 space-y-2 text-sm transition-colors ${
+              <ul className={`list-disc pl-5 space-y-4 text-base transition-colors ${
                 theme === 'dark'
                   ? 'text-gray-400 group-hover:text-gray-300'
                   : 'text-black/70 group-hover:text-black'

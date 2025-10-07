@@ -172,10 +172,10 @@ export default function Home() {
                 }`}
               >
                 <li>
-                  Design Verilog-based RTL circuit to compute Lorenz Attractor equations and visualize output via VGA.
+                  Design <strong>Verilog</strong>-based RTL circuit to compute Lorenz Attractor equations and visualize output via VGA.
                 </li>
                 <li>
-                  Deploy the design on an Arty-S7 FPGA board for real-time testing and validation.
+                  Deploy the design on an Arty-S7 <strong>FPGA</strong> board for real-time testing and validation.
                 </li>
                 <li>
                   Collaborate with Dr. David Parent to integrate current integrator logic with stochastic multiplier 
@@ -195,7 +195,7 @@ export default function Home() {
                   Undergraduate Researcher - Project Engineering Success
                 </h3>
                 <span className="text-gray-500 group-hover:text-gray-400 transition-colors duration-50">
-                  Sep 2023 - Present
+                  Sep 2023 - Dec 2024
                 </span>
               </div>
               <ul

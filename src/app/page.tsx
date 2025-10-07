@@ -183,6 +183,15 @@ export default function Home() {
                   neuron model.
                 </li>
               </ul>
+              <div className="flex gap-3 text-base text-gray-500 group-hover:text-gray-400 transition-colors pt-4">
+                <span className="hover:text-blue-400 transition-colors duration-50">Verilog</span>
+                <span>•</span>
+                <span className="hover:text-blue-400 transition-colors duration-50">FPGA Development</span>
+                <span>•</span>
+                <span className="hover:text-blue-400 transition-colors duration-50">ASIC Design</span>
+                <span>•</span>
+                <span className="hover:text-blue-400 transition-colors duration-50">Digital Design</span>
+              </div>
             </Link>
 
             {/* Project Engineering Success */}

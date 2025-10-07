@@ -8,7 +8,7 @@ export default function Home() {
   const [theme] = useState('dark');
 
   useEffect(() => {
-    const professions = ['an Electrical Engineering Student.', 'a Undergraduate Researcher.', 'a Robotics Enthusiast.'];
+    const professions = ['an Electrical Engineering Student.', 'an Undergraduate Researcher.', 'a Robotics Enthusiast.'];
     let currentIndex = 0;
     let isDeleting = false;
     let text = '';
@@ -245,22 +245,36 @@ export default function Home() {
             >
               <div className="flex justify-between items-start mb-2">
                 <h3 className="text-xl group-hover:text-blue-400 transition-colors">
-                  Designer/Builder - Spartan Racing Formula SAE
+                  Designer/Builder on Electrical Team - Spartan Racing Formula SAE
                 </h3>
                 <span className="text-gray-500 group-hover:text-gray-400 transition-colors duration-50">
                   Sep 2023 - May 2024
                 </span>
               </div>
-              <p
-                className={`${
+              <ul
+                className={`list-disc pl-5 space-y-4 text-base transition-colors ${
                   theme === "dark"
                     ? "text-gray-400 group-hover:text-gray-300"
                     : "text-black/70 group-hover:text-black"
-                } transition-colors`}
+                }`}
               >
-                Designed dashboard components, soldered PCB components, and built housing for the
-                electrical systems.
-              </p>
+                <li>
+                  Designed and selected the components (display, connectors, buttons, chipset, PCB, etc.) for the dashboard breakout board
+                </li>
+                <li>
+                  <strong>Soldered</strong> components onto PCB and tested the board to ensure functionality
+                </li>
+                <li>
+                  Built a housing and attached dashboard breakout board to rest of the electrical systems
+                </li>
+              </ul>
+              <div className="flex gap-3 text-base text-gray-500 group-hover:text-gray-400 transition-colors pt-4">
+                <span className="hover:text-blue-400 transition-colors duration-50">PCB Design</span>
+                <span>•</span>
+                <span className="hover:text-blue-400 transition-colors duration-50">Breadboarding</span>
+                <span>•</span>
+                <span className="hover:text-blue-400 transition-colors duration-50">Soldering</span>
+              </div>
             </Link>
 
             {/* Programming Intern */}

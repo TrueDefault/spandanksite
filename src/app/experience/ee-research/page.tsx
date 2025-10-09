@@ -2,7 +2,7 @@
 
 import { useEffect } from 'react';
 
-export default function ToGoBot() {
+export default function EEResearch() {
   useEffect(() => {
     const cursor = document.createElement('div');
     cursor.className = 'cursor';
@@ -57,18 +57,18 @@ export default function ToGoBot() {
     <main className="min-h-screen p-8 pt-24 md:p-16 md:pt-32 lg:p-24 lg:pt-40" style={{ background: `var(--bg-gradient-start)`, color: `var(--text-primary)` }}>
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl md:text-6xl font-light mb-12 hover-underline inline-block bg-gradient-to-r from-[var(--text-primary)] to-[var(--text-secondary)] bg-clip-text text-transparent transition-colors duration-50">
-          To-Go Bot
+          Lorenz Attractor VGA Display Project
         </h1>
 
         <div className="space-y-12">
           <div className="prose prose-invert max-w-none">
             <p className="text-gray-400 hover:text-gray-300 text-lg leading-relaxed transition-colors">
-              Led the development of an autonomous delivery robot&apos;s navigation system, achieving significant improvements in accuracy and efficiency.
+              Developing a ASIC design that generate a VGA signal to display the Lorenz Attractor equations on a monitor. The project involves creating a custom hardware design using Verilog, FGPAs, and eventually ASICs to render the system in real-time.
             </p>
 
-            <h2 className="text-2xl font-light mt-12 mb-6 hover-underline inline-block bg-gradient-to-r from-[var(--text-primary)] to-[var(--text-secondary)] bg-clip-text text-transparent">Key Achievements</h2>
+            <h2 className="text-2xl font-light mt-12 mb-6 hover-underline inline-block bg-gradient-to-r from-[var(--text-primary)] to-[var(--text-secondary)] bg-clip-text text-transparent">Completed Steps</h2>
             <ul className="text-gray-400 hover:text-gray-300 list-disc list-inside space-y-4 transition-colors">
-              <li>Implemented advanced pathfinding algorithms for optimal route calculation</li>
+              <li>Calculating Lorenz Attractor values (x,y coordinates) and exporting to a .csv file</li>
               <li>Designed and integrated sensor fusion systems for improved obstacle detection</li>
               <li>Developed power management systems for extended operation time</li>
               <li>Created a user-friendly interface for robot control and monitoring</li>

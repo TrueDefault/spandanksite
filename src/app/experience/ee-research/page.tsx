@@ -69,7 +69,7 @@ export default function EEResearch() {
             <h2 className="text-2xl font-light mt-12 mb-6 hover-underline inline-block bg-gradient-to-r from-[var(--text-primary)] to-[var(--text-secondary)] bg-clip-text text-transparent">Completed Steps</h2>
             <ul className="text-gray-400 hover:text-gray-300 list-disc list-inside space-y-4 transition-colors">
               <li>Calculating Lorenz Attractor values (x,y coordinates) using Verilog and exporting to a .csv file.</li>
-              <li>Basic VGA signal output using Arty S7-50 and Digilent VGA Pmod.</li>
+              <li>Basic VGA signal output using Arty S7-50 and Digilent VGA PMOD.</li>
               <li>Plotting Lorenz Attractor .csv file using software for comparison point when plotting with hardware.</li>
             </ul>
 
@@ -81,11 +81,11 @@ export default function EEResearch() {
 
             <h2 className="text-2xl font-light mt-12 mb-6 hover-underline inline-block bg-gradient-to-r from-[var(--text-primary)] to-[var(--text-secondary)] bg-clip-text text-transparent">Technologies Used</h2>
             <div className="flex flex-wrap gap-4">
-              <span className="px-4 py-2 rounded-full bg-gray-800 text-gray-300 hover:bg-gray-700 transition-colors">Raspberry Pi</span>
-              <span className="px-4 py-2 rounded-full bg-gray-800 text-gray-300 hover:bg-gray-700 transition-colors">Python</span>
+              <span className="px-4 py-2 rounded-full bg-gray-800 text-gray-300 hover:bg-gray-700 transition-colors">FGPA Design</span>
+              <span className="px-4 py-2 rounded-full bg-gray-800 text-gray-300 hover:bg-gray-700 transition-colors">ASIC Design</span>
               <span className="px-4 py-2 rounded-full bg-gray-800 text-gray-300 hover:bg-gray-700 transition-colors">Hardware Design</span>
-              <span className="px-4 py-2 rounded-full bg-gray-800 text-gray-300 hover:bg-gray-700 transition-colors">Sensor Integration</span>
-              <span className="px-4 py-2 rounded-full bg-gray-800 text-gray-300 hover:bg-gray-700 transition-colors">Power Systems</span>
+              <span className="px-4 py-2 rounded-full bg-gray-800 text-gray-300 hover:bg-gray-700 transition-colors">Verilog</span>
+              <span className="px-4 py-2 rounded-full bg-gray-800 text-gray-300 hover:bg-gray-700 transition-colors">Verification Engineering</span>
             </div>
           </div>
         </div>

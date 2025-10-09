@@ -68,10 +68,15 @@ export default function EEResearch() {
 
             <h2 className="text-2xl font-light mt-12 mb-6 hover-underline inline-block bg-gradient-to-r from-[var(--text-primary)] to-[var(--text-secondary)] bg-clip-text text-transparent">Completed Steps</h2>
             <ul className="text-gray-400 hover:text-gray-300 list-disc list-inside space-y-4 transition-colors">
-              <li>Calculating Lorenz Attractor values (x,y coordinates) and exporting to a .csv file</li>
-              <li>Designed and integrated sensor fusion systems for improved obstacle detection</li>
-              <li>Developed power management systems for extended operation time</li>
-              <li>Created a user-friendly interface for robot control and monitoring</li>
+              <li>Calculating Lorenz Attractor values (x,y coordinates) using Verilog and exporting to a .csv file.</li>
+              <li>Basic VGA signal output using Arty S7-50 and Digilent VGA Pmod.</li>
+              <li>Plotting Lorenz Attractor .csv file using software for comparison point when plotting with hardware.</li>
+            </ul>
+
+            <h2 className="text-2xl font-light mt-12 mb-6 hover-underline inline-block bg-gradient-to-r from-[var(--text-primary)] to-[var(--text-secondary)] bg-clip-text text-transparent">In Progress Steps</h2>
+            <ul className="text-gray-400 hover:text-gray-300 list-disc list-inside space-y-4 transition-colors">
+              <li>Hardware computing of Lorenz Attractor on Arty S7-50 and storing values within FGPA.</li>
+              <li>Hardware plotting of values over VGA.</li>
             </ul>
 
             <h2 className="text-2xl font-light mt-12 mb-6 hover-underline inline-block bg-gradient-to-r from-[var(--text-primary)] to-[var(--text-secondary)] bg-clip-text text-transparent">Technologies Used</h2>

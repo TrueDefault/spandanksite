@@ -63,13 +63,17 @@ export default function EngrSuccess() {
         <div className="space-y-12">
           <div className="prose prose-invert max-w-none">
             <p className="text-gray-400 hover:text-gray-300 text-lg leading-relaxed transition-colors">
-              Designed an ASIC that performs 4-bit stochastic multiplication using Wokwi and Verilog. The project involved creating a detailed schematic, simulating the design, and getting it fabricated by TinyTapeout.
+              Designed an ASIC that performs 4-bit stochastic multiplication using Wokwi and Verilog. 
+              The project involved creating a detailed schematic, simulating the design, and getting it fabricated by TinyTapeout.
+              The design works by first converting 2 4-bit binary inputs into stochastic bit streams using a pseudo-random bitstream (PRBS) and then using an AND gate to perform the multiplication.
+              The ASIC was tested and demonstrated accurate multiplication of stochastic bit streams when using 2-bit inputs, showcasing the potential of stochastic computing in low-power applications.
+              For 4-bit inputs, however, the design ran into issues with the conversion logic and was not able to produce accurate results.
             </p>
 
             <h2 className="text-2xl font-light mt-12 mb-6 hover-underline inline-block bg-gradient-to-r from-[var(--text-primary)] to-[var(--text-secondary)] bg-clip-text text-transparent">Key Achievements</h2>
             <ul className="text-gray-400 hover:text-gray-300 list-disc list-inside space-y-4 transition-colors">
-              <li>Implemented advanced pathfinding algorithms for optimal route calculation</li>
-              <li>Designed and integrated sensor fusion systems for improved obstacle detection</li>
+              <li>Used Wokwi to design and simulate a 4-bit stochastic multiplier circuit</li>
+              <li>D</li>
               <li>Developed power management systems for extended operation time</li>
               <li>Created a user-friendly interface for robot control and monitoring</li>
             </ul>
